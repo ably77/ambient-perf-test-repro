@@ -11,6 +11,8 @@ Example using the `gcloud` CLI in the /gke-deploy directory. The 5 namespace app
   - CPU requests: 700m // CPU limits: 700m (guaranteed QoS)
   - MEM requests: 500Mi // MEM limits: 500Mi (guaranteed QoS)
 
+![performance-architecture-1](.images/performance-architecture-1.png)
+
 ## add ambient helm repo
 ```bash
 helm repo add istio https://istio-release.storage.googleapis.com/charts
